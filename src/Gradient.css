@@ -1,0 +1,146 @@
+.gradient-container {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.color-box.off {
+  opacity: 0.5;
+}
+
+.color-1 {
+  background-color: red;
+}
+
+.color-2 {
+  background-color: orange;
+}
+
+.color-3 {
+  background-color: yellow;
+}
+
+.color-4 {
+  background-color: green;
+}
+
+.color-5 {
+  background-color: blue;
+}
+
+.color-6 {
+  background-color: indigo;
+}
+
+.color-7 {
+  background-color: violet;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  border-radius: 10px;
+}
+
+button {
+  margin-bottom: 40px;
+  font-size: 20px;
+  margin: 30px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  border: solid#020202 3px;
+}
+
+.color-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.color-box {
+  width: 120px;
+  height: 120px;
+  border: solid black;
+  border-width: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.color-box.disabled {
+  opacity: 0.5;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.css-output {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 60px;
+  font-size: 20px;
+  color: #030303;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
+  border: solid black;
+  border-width: 4px;
+}
+
+.gradient-title {
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 2px 4px 4px rgba(1, 1, 1, 1);
+}
