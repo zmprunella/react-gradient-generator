@@ -53,3 +53,14 @@
   border-radius: 5px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
 }
+
+@media only screen and (max-width: 600px) {
+  .color-Box-Container {
+    flex-direction: column;
+  }
+
+  .color-Box {
+    width: 100px;
+    height: 100px;
+  }
+}
